@@ -1,0 +1,186 @@
+{
+  "region": "us-east-1",
+  "purpose": "Historical settings; live inference disabled until the account owner verifies access, rates and a new budget",
+  "models": {
+    "haiku": {
+      "model_id": "us.anthropic.claude-haiku-5-5",
+      "region": "us-east-1",
+      "enabled": false,
+      "rates_verified": false,
+      "input_usd_per_million": "0.1100000000",
+      "output_usd_per_million": "0.5500000000",
+      "reservation_input_usd_per_million": "0.1100000000",
+      "reservation_output_usd_per_million": "0.5500000000",
+      "reservation_input_tokens": 65536,
+      "max_request_utf8_bytes": 16384,
+      "max_output_tokens": 512,
+      "cost_factor": "1.2",
+      "additional_fields": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "price_source": "https://aws.amazon.com/bedrock/pricing/",
+      "price_meter_map": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrockfoundationmodels/USD/current/bedrockfoundationmodels.json",
+      "price_verified_utc": "2026-10-16T21:28:16.734988+00:00",
+      "price_snapshots": {
+        "aws-bedrock-pricing-page": {
+          "path": "results/preflight/aws-bedrock-pricing-page-cabed9d1cd8b370b.html",
+          "sha256": "cabed9d1cd8b370b82190f54cc3c2c3f6c1f876689d3a5102983e886986c3f4e"
+        },
+        "aws-foundation-meter-map": {
+          "path": "results/preflight/aws-foundation-meter-map-34e18bca755ac86f.json",
+          "sha256": "34e18bca755ac86f7920bb121b85dc17fd72fb64799acd27c1787a958bf847a3"
+        }
+      },
+      "price_meters": {
+        "input": {
+          "rateCode": "GWDHRAKM6RFD2XYJ.4799GE89SK.6YS6EN2CT7",
+          "price": "0.1100000000",
+          "RegionlessRateCode": "nInqEzmmgrbJeO9gpq7zNSf35R1Bwxer9RdITrTy0e8",
+          "meter_key": "nInqEzmmgrbJeO9gpq7zNSf35R1Bwxer9RdITrTy0e8"
+        },
+        "output": {
+          "rateCode": "KYPW3D8EBWFD83XS.4799GE89SK.6YS6EN2CT7",
+          "price": "0.5500000000",
+          "RegionlessRateCode": "y5EpM2Ptdzv5cGRzpM0OuWUqNXov6GWRoeJM5aUvNwU",
+          "meter_key": "y5EpM2Ptdzv5cGRzpM0OuWUqNXov6GWRoeJM5aUvNwU"
+        }
+      },
+      "route": "US Geo",
+      "reservation_note": "At most 16KiB serialized system/messages; reserve 64K input tokens and full output cap with 20% contingency. Unknown costs retained; overruns halt ledger."
+    },
+    "nova": {
+      "model_id": "us.amazon.nova-2-lite-v1:0",
+      "region": "us-east-1",
+      "enabled": false,
+      "rates_verified": false,
+      "input_usd_per_million": "0.3300000000",
+      "output_usd_per_million": "2.7500000000",
+      "reservation_input_usd_per_million": "0.3300000000",
+      "reservation_output_usd_per_million": "2.7500000000",
+      "reservation_input_tokens": 65536,
+      "max_output_tokens": 512,
+      "cost_factor": "1.2",
+      "additional_fields": {
+        "reasoningConfig": {
+          "type": "disabled"
+        }
+      },
+      "price_source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json",
+      "price_snapshot_sha256": "09639127ea0b8a7cd19750d471416ecf99ebd5763f3d87f42d728f5307d1a42c",
+      "price_verified_utc": "2026-10-16T21:19:45.303434+00:00",
+      "price_publication_date": "2026-10-16T21:08:06Z",
+      "price_skus": {
+        "input": {
+          "sku": "FY8T82UUN7VZR55K",
+          "usage_type": "USE1-Nova2.0Lite-input-tokens",
+          "usd_per_million": "0.3300000000"
+        },
+        "output": {
+          "sku": "DY69Q8C3F88CHA2Q",
+          "usage_type": "USE1-Nova2.0Lite-output-tokens",
+          "usd_per_million": "2.7500000000"
+        }
+      },
+      "reservation_note": "Reserve 2 Mi tokens (above the published 1M context window), output cap, and 20% contingency.",
+      "max_request_utf8_bytes": 16384
+    },
+    "sonnet": {
+      "model_id": "us.anthropic.claude-sonnet-5-5",
+      "region": "us-east-1",
+      "enabled": false,
+      "rates_verified": false,
+      "input_usd_per_million": "2.2000000000",
+      "output_usd_per_million": "11.0000000000",
+      "reservation_input_usd_per_million": "2.2000000000",
+      "reservation_output_usd_per_million": "11.0000000000",
+      "reservation_input_tokens": 65536,
+      "max_request_utf8_bytes": 16384,
+      "max_output_tokens": 1024,
+      "cost_factor": "1.2",
+      "additional_fields": {
+        "thinking": {
+          "type": "between_tools"
+        }
+      },
+      "price_source": "https://aws.amazon.com/bedrock/pricing/",
+      "price_meter_map": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrockfoundationmodels/USD/current/bedrockfoundationmodels.json",
+      "price_verified_utc": "2026-10-16T21:28:16.963202+00:00",
+      "price_snapshots": {
+        "aws-bedrock-pricing-page": {
+          "path": "results/preflight/aws-bedrock-pricing-page-cabed9d1cd8b370b.html",
+          "sha256": "cabed9d1cd8b370b82190f54cc3c2c3f6c1f876689d3a5102983e886986c3f4e"
+        },
+        "aws-foundation-meter-map": {
+          "path": "results/preflight/aws-foundation-meter-map-34e18bca755ac86f.json",
+          "sha256": "34e18bca755ac86f7920bb121b85dc17fd72fb64799acd27c1787a958bf847a3"
+        }
+      },
+      "price_meters": {
+        "input": {
+          "rateCode": "6TG78WT6WYJUVS72.4799GE89SK.6YS6EN2CT7",
+          "price": "2.2000000000",
+          "RegionlessRateCode": "DDU-vzIiZXTMu1h-N9vWAypz9CaSNYj-IuOlaJCH9Vc",
+          "meter_key": "DDU-vzIiZXTMu1h-N9vWAypz9CaSNYj-IuOlaJCH9Vc"
+        },
+        "output": {
+          "rateCode": "ZNY2E4B6MTPHYXVH.4799GE89SK.6YS6EN2CT7",
+          "price": "11.0000000000",
+          "RegionlessRateCode": "hY9noBOtUyvZKftAy7Aedr60gL0_H1VoVkeRllxeGrM",
+          "meter_key": "hY9noBOtUyvZKftAy7Aedr60gL0_H1VoVkeRllxeGrM"
+        }
+      },
+      "route": "US Geo",
+      "reservation_note": "At most 16KiB serialized system/messages; reserve 64K input tokens and full output cap with 20% contingency. Unknown costs retained; overruns halt ledger."
+    },
+    "haiku45": {
+      "model_id": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "region": "us-east-1",
+      "enabled": false,
+      "rates_verified": false,
+      "input_usd_per_million": "1.0000000000",
+      "output_usd_per_million": "5.0000000000",
+      "reservation_input_usd_per_million": "1.0000000000",
+      "reservation_output_usd_per_million": "5.0000000000",
+      "reservation_input_tokens": 65536,
+      "max_request_utf8_bytes": 16384,
+      "max_output_tokens": 512,
+      "cost_factor": "1.2",
+      "additional_fields": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "price_source": "https://aws.amazon.com/bedrock/pricing/",
+      "price_meter_map": "https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/bedrockfoundationmodels/USD/current/bedrockfoundationmodels.json",
+      "price_verified_utc": "2026-10-16T21:28:16.845523+00:00",
+      "price_snapshots": {
+        "aws-bedrock-pricing-page": {
+          "path": "results/preflight/aws-bedrock-pricing-page-cabed9d1cd8b370b.html",
+          "sha256": "cabed9d1cd8b370b82190f54cc3c2c3f6c1f876689d3a5102983e886986c3f4e"
+        },
+        "aws-foundation-meter-map": {
+          "path": "results/preflight/aws-foundation-meter-map-34e18bca755ac86f.json",
+          "sha256": "34e18bca755ac86f7920bb121b85dc17fd72fb64799acd27c1787a958bf847a3"
+        }
+      },
+      "price_meters": {
+        "input": {
+          "rateCode": "DY4B4Q3TRTAY8V6G.4799GE89SK.6YS6EN2CT7",
+          "price": "1.0000000000",
+          "RegionlessRateCode": "BdcU6KbXNgy2R8cYTZ4Y9p2x-I9-iKeh0cuRPH7onRY",
+          "meter_key": "BdcU6KbXNgy2R8cYTZ4Y9p2x-I9-iKeh0cuRPH7onRY"
+        },
+        "output": {
+          "rateCode": "XADKFYXVGBFBJSU7.4799GE89SK.6YS6EN2CT7",
+          "price": "5.0000000000",
+          "RegionlessRateCode": "as3DvM-bNXDHI7Bo3B6cFFbMvBoTxfNLvnc3LqkKbq4",
+          "meter_key": "as3DvM-bNXDHI7Bo3B6cFFbMvBoTxfNLvnc3LqkKbq4"
+        }
+      },
+      "route": "Global",
+      "reservation_note": "At most 16KiB serialized system/messages; reserve 64K input tokens and full output cap with 20% contingency. Unknown costs retained; overruns halt ledger."
+    }
+  }
+}

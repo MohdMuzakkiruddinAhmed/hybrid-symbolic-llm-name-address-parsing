@@ -1,0 +1,100 @@
+[
+  {
+    "model": "nova",
+    "policy": "per_record_structural",
+    "memory_reuse_events": 0,
+    "incorrect_reuse_events": 0,
+    "harmful_reuse_rate": null
+  },
+  {
+    "model": "nova",
+    "policy": "per_record_context_gate",
+    "memory_reuse_events": 0,
+    "incorrect_reuse_events": 0,
+    "harmful_reuse_rate": null
+  },
+  {
+    "model": "nova",
+    "policy": "legacy_v1",
+    "memory_reuse_events": 8091,
+    "incorrect_reuse_events": 812,
+    "harmful_reuse_rate": 0.1003584229390681
+  },
+  {
+    "model": "nova",
+    "policy": "legacy_v2",
+    "memory_reuse_events": 8091,
+    "incorrect_reuse_events": 812,
+    "harmful_reuse_rate": 0.1003584229390681
+  },
+  {
+    "model": "nova",
+    "policy": "context_support1",
+    "memory_reuse_events": 7483,
+    "incorrect_reuse_events": 15,
+    "harmful_reuse_rate": 0.0020045436322330616
+  },
+  {
+    "model": "nova",
+    "policy": "context_support3",
+    "memory_reuse_events": 5452,
+    "incorrect_reuse_events": 9,
+    "harmful_reuse_rate": 0.0016507703595011005
+  },
+  {
+    "model": "nova",
+    "policy": "proposed",
+    "memory_reuse_events": 5359,
+    "incorrect_reuse_events": 5,
+    "harmful_reuse_rate": 0.000933009889904833
+  },
+  {
+    "model": "haiku45",
+    "policy": "per_record_structural",
+    "memory_reuse_events": 0,
+    "incorrect_reuse_events": 0,
+    "harmful_reuse_rate": null
+  },
+  {
+    "model": "haiku45",
+    "policy": "per_record_context_gate",
+    "memory_reuse_events": 0,
+    "incorrect_reuse_events": 0,
+    "harmful_reuse_rate": null
+  },
+  {
+    "model": "haiku45",
+    "policy": "legacy_v1",
+    "memory_reuse_events": 8129,
+    "incorrect_reuse_events": 703,
+    "harmful_reuse_rate": 0.0864805019067536
+  },
+  {
+    "model": "haiku45",
+    "policy": "legacy_v2",
+    "memory_reuse_events": 8127,
+    "incorrect_reuse_events": 675,
+    "harmful_reuse_rate": 0.08305647840531562
+  },
+  {
+    "model": "haiku45",
+    "policy": "context_support1",
+    "memory_reuse_events": 7708,
+    "incorrect_reuse_events": 37,
+    "harmful_reuse_rate": 0.004800207576543851
+  },
+  {
+    "model": "haiku45",
+    "policy": "context_support3",
+    "memory_reuse_events": 5555,
+    "incorrect_reuse_events": 9,
+    "harmful_reuse_rate": 0.0016201620162016202
+  },
+  {
+    "model": "haiku45",
+    "policy": "proposed",
+    "memory_reuse_events": 5462,
+    "incorrect_reuse_events": 5,
+    "harmful_reuse_rate": 0.0009154155986818016
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "legacy_mask": {
+    "distinct_keys": 694,
+    "conflicting_reference_keys": 17,
+    "mapped_records_in_conflicting_keys": 1541,
+    "interpretation": "Representation collision against construction mappings; not proof of raw-text semantic uniqueness"
+  },
+  "enriched_signature": {
+    "distinct_keys": 1775,
+    "conflicting_reference_keys": 5,
+    "mapped_records_in_conflicting_keys": 155,
+    "interpretation": "Representation collision against construction mappings; not proof of raw-text semantic uniqueness"
+  }
+}

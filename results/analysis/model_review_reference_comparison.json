@@ -1,0 +1,19 @@
+{
+  "by_cohort": {
+    "D2": {
+      "mapped": 899,
+      "agrees_with_construction_status_and_mapping": 899,
+      "ambiguous": 101
+    },
+    "D3": {
+      "mapped": 543,
+      "agrees_with_construction_status_and_mapping": 943,
+      "disputed": 34,
+      "ambiguous": 223,
+      "unsupported": 100,
+      "insufficient": 100
+    }
+  },
+  "divergent_rows": 158,
+  "human_annotations": 0
+}

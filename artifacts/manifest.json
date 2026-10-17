@@ -1,0 +1,20 @@
+{
+  "release": "v0.5.0",
+  "dataset": {
+    "filename": "corpus-v1.zip",
+    "sha256": "ceae91d1ebaa44fa71a278ee4a48727fa002a22a6a8a4938b2b5b7c6918dcbe0",
+    "archive_bytes": 9765112,
+    "uncompressed_bytes": 69890000,
+    "members": 69
+  },
+  "results": {
+    "filename": "llm-results-v0.5.0.zip",
+    "sha256": "66167654e45822992e722c3e2b53aa2d5a21c807f029128010d644557517bd38",
+    "archive_bytes": 39003737,
+    "uncompressed_bytes": 430480227,
+    "members": 328
+  },
+  "publication_edits": "Tool-neutral annotation names and omission of session/request identifiers; response text, predictions, metrics and cohort membership preserved",
+  "review_model": "gpt-6.1-sol",
+  "human_annotations": 0
+}

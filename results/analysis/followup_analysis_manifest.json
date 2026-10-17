@@ -1,0 +1,7 @@
+{
+  "analysis_source_sha256": "0f268ab6d7d8386000092abae70b7ecc4120ee7230d8249fe7415f32669b64b0",
+  "main_protocol_sha256": "6fba3a7d321a2a9eafb18bad30ea83cb19a3bf3b329556b8826dccf66a304ed5",
+  "human_annotations": 0,
+  "error_catalog_rows": 1741,
+  "model_review_divergent_rows": 158
+}

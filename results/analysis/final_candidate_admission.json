@@ -1,0 +1,112 @@
+{
+  "rows": [
+    {
+      "method": "legacy_v1",
+      "candidate_type": "correct",
+      "decisions": 600,
+      "admitted": 400,
+      "expected_admission": 600
+    },
+    {
+      "method": "legacy_v2",
+      "candidate_type": "correct",
+      "decisions": 600,
+      "admitted": 400,
+      "expected_admission": 600
+    },
+    {
+      "method": "structural_v05",
+      "candidate_type": "correct",
+      "decisions": 600,
+      "admitted": 600,
+      "expected_admission": 600
+    },
+    {
+      "method": "legacy_v1",
+      "candidate_type": "name_role_swap",
+      "decisions": 600,
+      "admitted": 400,
+      "expected_admission": 0
+    },
+    {
+      "method": "legacy_v2",
+      "candidate_type": "name_role_swap",
+      "decisions": 600,
+      "admitted": 0,
+      "expected_admission": 0
+    },
+    {
+      "method": "structural_v05",
+      "candidate_type": "name_role_swap",
+      "decisions": 600,
+      "admitted": 0,
+      "expected_admission": 0
+    },
+    {
+      "method": "legacy_v1",
+      "candidate_type": "street_city_swap",
+      "decisions": 600,
+      "admitted": 400,
+      "expected_admission": 0
+    },
+    {
+      "method": "legacy_v2",
+      "candidate_type": "street_city_swap",
+      "decisions": 600,
+      "admitted": 400,
+      "expected_admission": 0
+    },
+    {
+      "method": "structural_v05",
+      "candidate_type": "street_city_swap",
+      "decisions": 600,
+      "admitted": 0,
+      "expected_admission": 0
+    },
+    {
+      "method": "legacy_v1",
+      "candidate_type": "numeric_role_swap",
+      "decisions": 600,
+      "admitted": 400,
+      "expected_admission": 0
+    },
+    {
+      "method": "legacy_v2",
+      "candidate_type": "numeric_role_swap",
+      "decisions": 600,
+      "admitted": 400,
+      "expected_admission": 0
+    },
+    {
+      "method": "structural_v05",
+      "candidate_type": "numeric_role_swap",
+      "decisions": 600,
+      "admitted": 0,
+      "expected_admission": 0
+    },
+    {
+      "method": "legacy_v1",
+      "candidate_type": "missing_position",
+      "decisions": 600,
+      "admitted": 0,
+      "expected_admission": 0
+    },
+    {
+      "method": "legacy_v2",
+      "candidate_type": "missing_position",
+      "decisions": 600,
+      "admitted": 0,
+      "expected_admission": 0
+    },
+    {
+      "method": "structural_v05",
+      "candidate_type": "missing_position",
+      "decisions": 600,
+      "admitted": 0,
+      "expected_admission": 0
+    }
+  ],
+  "base_inputs": 600,
+  "candidate_decisions": 3000,
+  "scope": "Generator-authored, correlated candidate perturbations of final D3 mapped inputs; no LLM calls; not a universal semantic-safety guarantee"
+}

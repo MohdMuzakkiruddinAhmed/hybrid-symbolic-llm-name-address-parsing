@@ -1,0 +1,51 @@
+{
+  "stages": [
+    {
+      "stage": "calibration",
+      "state": "settled",
+      "attempts": 2000,
+      "committed_estimate_usd": 2.41572
+    },
+    {
+      "stage": "discovery_variability",
+      "state": "settled",
+      "attempts": 200,
+      "committed_estimate_usd": 0.262383
+    },
+    {
+      "stage": "main_final_response_bank",
+      "state": "settled",
+      "attempts": 20000,
+      "committed_estimate_usd": 24.363898
+    },
+    {
+      "stage": "paired_live_streams",
+      "state": "settled",
+      "attempts": 131,
+      "committed_estimate_usd": 0.163459
+    },
+    {
+      "stage": "screening",
+      "state": "settled",
+      "attempts": 773,
+      "committed_estimate_usd": 1.417815
+    },
+    {
+      "stage": "screening",
+      "state": "uncertain",
+      "attempts": 4,
+      "committed_estimate_usd": 0.746128
+    },
+    {
+      "stage": "sonnet_final_reference",
+      "state": "settled",
+      "attempts": 250,
+      "committed_estimate_usd": 1.152518
+    }
+  ],
+  "committed_estimate_usd": 30.521921,
+  "operational_cap_usd": 40,
+  "project_maximum_usd": 50,
+  "human_annotations": 0,
+  "note": "Conservative token/rate estimates and retained unknown reservations; not AWS invoice. Annotation-engine usage is separate."
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-name-address-parser"
+version = "0.1.0"
+description = "Research implementation of evidence-gated structural parsing memory"
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+bedrock = ["boto3==1.42.73", "botocore==1.42.73"]
+baselines = ["usaddress==0.5.16", "sklearn-crfsuite==0.5.0", "python-crfsuite==0.9.12", "probableparsing==0.0.1"]
+
+[project.scripts]
+adaptive-parser = "adaptive_parser.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

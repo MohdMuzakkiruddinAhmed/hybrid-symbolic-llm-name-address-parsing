@@ -1,0 +1,250 @@
+{
+  "plan_version": "0.5.0",
+  "planning_date": "2026-10-15",
+  "scope": "20,000-record computational study with source/construction references and model-assisted-assisted audit; no human annotation planned or claimed.",
+  "dataset": {
+    "unique_records": 20000,
+    "draft_generated_records": 20000,
+    "draft_manifest": "data/corpus-draft-v1/manifest.json",
+    "protocol_frozen": true,
+    "independent_annotations_completed": 0,
+    "source_jurisdictions": 12,
+    "external_aggregation_services": 1,
+    "legacy_records_excluded": 30,
+    "split_totals": {
+      "development": 6000,
+      "validation": 4000,
+      "final": 10000
+    },
+    "cohorts": [
+      {
+        "id": "D1",
+        "name": "controlled_composition",
+        "records": 10000,
+        "development": 4000,
+        "validation": 2000,
+        "final": 4000,
+        "target_families": 400,
+        "realized_token_field_sequences": 400,
+        "related_address_layout_groups": 50,
+        "address_group_split": {
+          "development": 20,
+          "validation": 10,
+          "final": 20
+        },
+        "records_per_family": 25,
+        "family_split": {
+          "development": 160,
+          "validation": 80,
+          "final": 160
+        }
+      },
+      {
+        "id": "D2",
+        "name": "external_address_transfer",
+        "records": 6000,
+        "development": 1500,
+        "validation": 1500,
+        "final": 3000
+      },
+      {
+        "id": "D3",
+        "name": "safety_and_ambiguity",
+        "records": 2000,
+        "development": 500,
+        "validation": 500,
+        "final": 1000,
+        "target_status_counts": {
+          "uniquely_interpretable": 1200,
+          "ambiguous": 400,
+          "unsupported_or_insufficient": 400
+        }
+      },
+      {
+        "id": "D4",
+        "name": "known_family_new_lexical_values",
+        "records": 2000,
+        "development": 0,
+        "validation": 0,
+        "final": 2000
+      }
+    ],
+    "screening_development_subset": {
+      "D1": 200,
+      "D2": 75,
+      "D3": 25
+    },
+    "calibration_validation_subset": {
+      "D1": 500,
+      "D2": 375,
+      "D3": 125
+    },
+    "sonnet_reference_final_subset": {
+      "D1": 400,
+      "D2": 300,
+      "D3": 100,
+      "D4": 200
+    },
+    "derived_streams": {
+      "regimes": 4,
+      "events_per_regime": 2000,
+      "order_seeds": 5,
+      "additional_unique_records": 0
+    },
+    "sonnet_reference_final_subset_v05": {
+      "D1": 100,
+      "D2": 75,
+      "D3": 25,
+      "D4": 50
+    }
+  },
+  "aws": {
+    "profile": null,
+    "region": "us-east-1",
+    "api": "bedrock-runtime.Converse",
+    "account_access_verified": true,
+    "sdk_compatibility_verified": true,
+    "request_budget_enforcement_implemented": true,
+    "model_ids_are_us_profile_examples": true,
+    "full_study_enabled": true,
+    "engineering_smoke_enabled": true,
+    "python_launcher": "py -3.13",
+    "credentials_source": "standard environment credential chain; no keys stored in repository"
+  },
+  "budget": {
+    "currency": "USD",
+    "maximum": 50,
+    "operational_ceiling": 40,
+    "reserve": 10,
+    "rate_contingency_fraction": 0.2,
+    "cloud_only": true,
+    "price_rates_verified_for_account_and_region": true,
+    "assumed_input_tokens_per_request": 800,
+    "assumed_billed_output_tokens_per_request": 256,
+    "batch_discount_assumed": false,
+    "prompt_cache_discount_assumed": false,
+    "taxes_and_other_charges_verified": false
+  },
+  "models": {
+    "haiku": {
+      "name": "Claude Haiku 5.5",
+      "role": "unavailable_candidate_not_invoked",
+      "example_model_id": "us.anthropic.claude-haiku-5-5",
+      "input_usd_per_million_planning_only": 0.11,
+      "output_usd_per_million_planning_only": 0.55,
+      "proposed_max_output_tokens": 512,
+      "price_basis": "Verified AWS US Geo pricing-table columns and public USD meter map",
+      "price_source": "https://aws.amazon.com/bedrock/pricing/",
+      "model_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html"
+    },
+    "nova": {
+      "name": "Amazon Nova 2 Lite",
+      "role": "different_provider_main_comparison",
+      "example_model_id": "us.amazon.nova-2-lite-v1:0",
+      "input_usd_per_million_planning_only": 0.33,
+      "output_usd_per_million_planning_only": 2.75,
+      "proposed_max_output_tokens": 512,
+      "price_basis": "AWS public AmazonBedrock us-east-1 offer, standard regional/geo rates, verified 2026-10-16",
+      "price_source": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json",
+      "model_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html"
+    },
+    "sonnet": {
+      "name": "Claude Sonnet 5.5",
+      "role": "shared_subset_quality_reference",
+      "example_model_id": "us.anthropic.claude-sonnet-5-5",
+      "input_usd_per_million_planning_only": 2.2,
+      "output_usd_per_million_planning_only": 11.0,
+      "proposed_max_output_tokens": 1024,
+      "price_basis": "Verified AWS US Geo pricing-table columns and public USD meter map",
+      "price_source": "https://aws.amazon.com/bedrock/pricing/",
+      "model_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html"
+    },
+    "haiku45": {
+      "name": "Claude Haiku 4.5",
+      "role": "available_cross_provider_main_fallback",
+      "example_model_id": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
+      "input_usd_per_million_planning_only": 1.0,
+      "output_usd_per_million_planning_only": 5.0,
+      "proposed_max_output_tokens": 512,
+      "price_source": "https://aws.amazon.com/bedrock/pricing/",
+      "price_basis": "Verified AWS global-route meter map and pricing-table column linkage"
+    }
+  },
+  "stages": [
+    {
+      "id": "screening",
+      "allocation_usd": 2.6,
+      "requests": {
+        "nova": 300,
+        "haiku45": 300,
+        "sonnet": 150
+      }
+    },
+    {
+      "id": "calibration",
+      "allocation_usd": 3.2,
+      "requests": {
+        "nova": 1000,
+        "haiku45": 1000,
+        "sonnet": 0
+      }
+    },
+    {
+      "id": "main_final_response_bank",
+      "allocation_usd": 31.2,
+      "requests": {
+        "nova": 10000,
+        "haiku45": 10000,
+        "sonnet": 0
+      }
+    },
+    {
+      "id": "sonnet_final_reference",
+      "allocation_usd": 1.6,
+      "requests": {
+        "nova": 0,
+        "haiku45": 0,
+        "sonnet": 250
+      }
+    },
+    {
+      "id": "discovery_variability",
+      "allocation_usd": 0.4,
+      "requests": {
+        "nova": 100,
+        "haiku45": 100,
+        "sonnet": 0
+      }
+    },
+    {
+      "id": "paired_live_streams",
+      "allocation_usd": 0.4,
+      "requests": {
+        "nova": 100,
+        "haiku45": 100,
+        "sonnet": 0
+      }
+    },
+    {
+      "id": "retry_and_repair_allowance",
+      "allocation_usd": 0.6,
+      "requests": {
+        "nova": 0,
+        "haiku45": 0,
+        "sonnet": 0
+      }
+    }
+  ],
+  "last_updated": "2026-10-16",
+  "annotation": {
+    "human_annotation_planned": false,
+    "human_annotations_completed": 0,
+    "replacement_authorization": "User explicitly requested model-assisted annotation and continuation, 2026-10-16",
+    "review_engine": "existing model-assisted CLI / configured gpt-6.1-sol; model-assisted, not human",
+    "pilot_inputs": 50,
+    "final_audit_inputs": 2000,
+    "passes_per_input": 2,
+    "blinding": "opaque IDs, raw inputs and published conventions only; no generator or Bedrock answers supplied",
+    "interpretation": "Model agreement/consensus is a sensitivity reference, not independently verified truth; disagreements retained"
+  }
+}

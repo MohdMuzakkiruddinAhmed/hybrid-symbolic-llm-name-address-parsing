@@ -1,0 +1,27 @@
+{
+  "generated_utc": "2026-10-17T01:27:19.055370+00:00",
+  "analysis_source_sha256": "87fb252986cfc946e29e4e692783b036639a875fdbbf303c3f3f25fcec64ea78",
+  "predictive_protocol_sha256": "6fba3a7d321a2a9eafb18bad30ea83cb19a3bf3b329556b8826dccf66a304ed5",
+  "inputs": {
+    "results/local_baselines/final/crf.predictions.jsonl": "ff35ae309eb0418bcee5ac58b1f6fc176d45f6da474f879bcb790414778898b1",
+    "results/replay/mapping-json-v4-typed-streets/final/nova.per_record_structural.predictions.jsonl": "298fd8010843767f2d8e9dc2a8842434d1e1aa2f4eee0c038d8892183e2334f9",
+    "results/replay/mapping-json-v4-typed-streets/final/nova.per_record_context_gate.predictions.jsonl": "2593e9210766a8ec33b7671d83e6529e2bf57bda0acba1e0b4d920beae1e0609",
+    "results/replay/mapping-json-v4-typed-streets/final/nova.legacy_v1.predictions.jsonl": "a789791c57c58f91c578f6bfa2000f14a44dd68f3f3ee76b83ed64053c4676bd",
+    "results/replay/mapping-json-v4-typed-streets/final/nova.legacy_v2.predictions.jsonl": "a789791c57c58f91c578f6bfa2000f14a44dd68f3f3ee76b83ed64053c4676bd",
+    "results/replay/mapping-json-v4-typed-streets/final/nova.context_support1.predictions.jsonl": "63116c9a63b3bef17077696c4f1241b84bbfa43d3a7e21e813803e7f4f161a30",
+    "results/replay/mapping-json-v4-typed-streets/final/nova.context_support3.predictions.jsonl": "4e903dce7a55f4521d5573e89c8d847b9e0b981511e16d7cb132d887122836ff",
+    "results/replay/mapping-json-v4-typed-streets/final/nova.proposed.predictions.jsonl": "9099cd1d2504ee1054f17ee3a65fe69333e406257a405c56dc2417359ce8ae74",
+    "results/replay/mapping-json-v4-typed-streets/final/haiku45.per_record_structural.predictions.jsonl": "751d884a28ebb285b7db0c0fdb313060a25bd72674162811ef1f9455feafa85f",
+    "results/replay/mapping-json-v4-typed-streets/final/haiku45.per_record_context_gate.predictions.jsonl": "f43b37dfba8a1c7a535c2971000b15a9056e35f6112c4bddd104c863f9fc6e98",
+    "results/replay/mapping-json-v4-typed-streets/final/haiku45.legacy_v1.predictions.jsonl": "66cfa0546df17b0f769d39e4cdc6013b568163566b89ef22135b58a8e105317c",
+    "results/replay/mapping-json-v4-typed-streets/final/haiku45.legacy_v2.predictions.jsonl": "1588f42e2ad1f63925dd163e951f247235ff147693ba45641ee04cac06331f3c",
+    "results/replay/mapping-json-v4-typed-streets/final/haiku45.context_support1.predictions.jsonl": "c91261e61ab643fd97e3d0d8254bc4cbd36c758960aacacb3f94bbcf312a291e",
+    "results/replay/mapping-json-v4-typed-streets/final/haiku45.context_support3.predictions.jsonl": "97860179f7bb00fadeea31ebb44a67691e0abdeb859eee73e1f3aececcf03c3b",
+    "results/replay/mapping-json-v4-typed-streets/final/haiku45.proposed.predictions.jsonl": "a849a32d1c8091a52d99457cc8634316ff3b8e28827559151f99aa64bb59015b",
+    "results/local_baselines/final/grammar.predictions.jsonl": "64a49de25ccc21da245aff08dedaaed66205be308c0036bfbdce5c9ce00f28f8",
+    "results/local_baselines/final/usaddress_composite.predictions.jsonl": "d4ceebae3d84d91b14b49004a7b8bb773cae5478995fe520cc1df180c343bd1a"
+  },
+  "human_annotations": 0,
+  "static_comparators": 17,
+  "policy_evaluations_with_streams": 294
+}

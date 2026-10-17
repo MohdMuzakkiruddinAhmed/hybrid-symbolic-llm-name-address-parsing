@@ -1,0 +1,54 @@
+{
+  "records": 20000,
+  "unique_fingerprints": 20000,
+  "counts": {
+    "D1/development": 4000,
+    "D1/validation": 2000,
+    "D1/final": 4000,
+    "D2/development": 1500,
+    "D2/validation": 1500,
+    "D2/final": 3000,
+    "D3/development": 500,
+    "D3/validation": 500,
+    "D3/final": 1000,
+    "D4/final": 2000
+  },
+  "D1_families": 400,
+  "source_jurisdictions": 12,
+  "D1_address_groups": 50,
+  "base_address_split_overlaps": 0,
+  "identity_split_overlaps": 0,
+  "integrity_status": "passed",
+  "independent_annotation_status": "pending",
+  "protocol_frozen": false,
+  "dataset_version": "corpus-draft-v1",
+  "D3_status_counts": {
+    "mapped": 1200,
+    "ambiguous": 400,
+    "unsupported": 400
+  },
+  "screening_records": 300,
+  "screening_cohorts": {
+    "D1": 200,
+    "D2": 75,
+    "D3": 25
+  },
+  "validator_decisions": 6000,
+  "independent_unique_validator_inputs": 1200,
+  "final_model_inference_executed": false,
+  "legacy_and_engineering_overlap": 0,
+  "source_manifest": "data/sources/addressnc-v1/manifest.json",
+  "source_manifest_sha256": "2570208c11f0aadf0611aeb3bf6e74a045971452fc70f4fe44c7c12c2e36a156",
+  "builder_sha256": "c9b05373aa1f4fc2b5c3044b36adc5b90582b871f93dd064eceac8d017cf9fd6",
+  "lexical_pool_provenance": "Author-created syllable combinations and word lists in scripts/build_corpus.py; fictional people and controlled addresses",
+  "limitations": [
+    "All labels and ambiguity statuses await independent human review",
+    "D1 has 400 token-field sequences but only 50 address layouts and 8 name layouts; related variants grouped by address layout",
+    "D1 split tests compositions/lengths, not 400 independent linguistic phenomena",
+    "D2 is rendered North Carolina county transfer, not naturally observed joint records or independent-provider transfer",
+    "No arbitrary unique mapping is assigned to ambiguous D3 records",
+    "Draft corpus generated before human annotation pilot; not frozen final-test evidence"
+  ],
+  "reproduced_artifacts": 13,
+  "dataset_helpers_sha256": "56f2a107e96c02409fd3348d2c48e8d5cf2cb11cb85d952ed0aa12ad832bef84"
+}

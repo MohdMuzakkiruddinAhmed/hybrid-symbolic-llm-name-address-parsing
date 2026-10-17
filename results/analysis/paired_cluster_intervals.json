@@ -1,0 +1,226 @@
+[
+  {
+    "model": "nova",
+    "first": "proposed",
+    "second": "per_record_context_gate",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": 0.01033206581835928,
+        "upper_95": 0.021307965435185997
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": -0.002251515053063947,
+        "upper_95": -0.0006467216781085514
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": 0.01226702544667373,
+        "upper_95": 0.023279665711428796
+      }
+    }
+  },
+  {
+    "model": "nova",
+    "first": "proposed",
+    "second": "legacy_v1",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": 0.005377579365079294,
+        "upper_95": 0.0365000498007968
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": -0.11523065607430129,
+        "upper_95": -0.08043867133317478
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": 0.08784859482051678,
+        "upper_95": 0.12785195437802876
+      }
+    }
+  },
+  {
+    "model": "nova",
+    "first": "proposed",
+    "second": "legacy_v2",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": 0.005377579365079294,
+        "upper_95": 0.0365000498007968
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": -0.11523065607430129,
+        "upper_95": -0.08043867133317478
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": 0.08784859482051678,
+        "upper_95": 0.12785195437802876
+      }
+    }
+  },
+  {
+    "model": "nova",
+    "first": "proposed",
+    "second": "crf",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": -0.10820008032128521,
+        "upper_95": -0.0784682444061961
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": -5.538650128559527e-05,
+        "upper_95": 0.0007388700026985257
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": -0.11290203532750558,
+        "upper_95": -0.08175377764829825
+      }
+    }
+  },
+  {
+    "model": "haiku45",
+    "first": "proposed",
+    "second": "per_record_context_gate",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": 0.006201463018892106,
+        "upper_95": 0.019104958705790872
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": -0.004928695500208449,
+        "upper_95": -0.0015516322450893185
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": 0.0093628110037321,
+        "upper_95": 0.022436471391592713
+      }
+    }
+  },
+  {
+    "model": "haiku45",
+    "first": "proposed",
+    "second": "legacy_v1",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": 0.06069946787148592,
+        "upper_95": 0.08609407894736847
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": -0.09603980759909714,
+        "upper_95": -0.06384174027411899
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": 0.12700756527224802,
+        "upper_95": 0.16621630998874717
+      }
+    }
+  },
+  {
+    "model": "haiku45",
+    "first": "proposed",
+    "second": "legacy_v2",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": 0.06089016129032262,
+        "upper_95": 0.08619999999999994
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": -0.09179525093902956,
+        "upper_95": -0.061275481238423524
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": 0.12449220100144345,
+        "upper_95": 0.16347216307471335
+      }
+    }
+  },
+  {
+    "model": "haiku45",
+    "first": "proposed",
+    "second": "crf",
+    "replicates": 2000,
+    "seed": 20261016,
+    "cluster_counts": {
+      "D1": 20,
+      "D2": 6,
+      "D3": 1000,
+      "D4": 20
+    },
+    "scope": "Descriptive paired intervals conditional on fixed routing and reference labels; do not establish human-verified accuracy or independent order effects",
+    "intervals": {
+      "automatic_coverage_difference": {
+        "lower_95": -0.051402500000000004,
+        "upper_95": -0.02513525447675903
+      },
+      "accepted_error_rate_difference": {
+        "lower_95": 0.0017693783474254873,
+        "upper_95": 0.00534746797008207
+      },
+      "exact_mapped_reference_accuracy_difference": {
+        "lower_95": -0.05702775275644962,
+        "upper_95": -0.02898475608264708
+      }
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "model": "nova",
+    "inputs": 50,
+    "generations": 150,
+    "accepted": 138,
+    "exact_records": 138,
+    "failed": 0,
+    "all_three_status_mapping_agree": 45,
+    "all_three_match_construction_reference": 43,
+    "additional_provider_generations": 100,
+    "scope": "50 preselected D1 family representatives, three generations per input including original bank; repeated same-input sampling is not distinct-input admission evidence"
+  },
+  {
+    "model": "haiku45",
+    "inputs": 50,
+    "generations": 150,
+    "accepted": 137,
+    "exact_records": 137,
+    "failed": 0,
+    "all_three_status_mapping_agree": 49,
+    "all_three_match_construction_reference": 45,
+    "additional_provider_generations": 100,
+    "scope": "50 preselected D1 family representatives, three generations per input including original bank; repeated same-input sampling is not distinct-input admission evidence"
+  }
+]

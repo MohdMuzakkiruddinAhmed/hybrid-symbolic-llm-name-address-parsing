@@ -1,0 +1,28 @@
+{
+  "verified_utc": "2026-10-17T01:48:10.339847+00:00",
+  "release": "v0.5.0",
+  "license": "MIT",
+  "frozen_predictive_files_byte_identical": 19,
+  "corpus_artifacts_byte_identical": 13,
+  "identical_prediction_files": 42,
+  "response_records_text_and_usage_preserved": 23000,
+  "recomputed_policy_evaluations_identical": 294,
+  "model_assisted_audit_records_preserved": 2000,
+  "human_annotations": 0,
+  "unit_tests": {
+    "Python 3.12": {
+      "passed": 47
+    },
+    "Python 3.13": {
+      "passed": 47
+    }
+  },
+  "offline_reproduction": "Full saved-bank replay and analysis passed; 17 static result rows verified",
+  "text_files_and_archive_members_scanned": 484,
+  "publication_scan_findings": 0,
+  "checksummed_archives_valid": true,
+  "new_model_calls": 0,
+  "github_repository_url": "https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing",
+  "remote_repository_created": true,
+  "hosted_ci": "Check the repository GitHub Actions page for hosted run status"
+}
