@@ -2,11 +2,11 @@ cff-version: 1.2.0
 message: "Please cite this software and its version when using the code or released study outputs."
 title: "A Hybrid Symbolic–LLM Framework for Adaptive Name and Address Parsing through Token-Mask Knowledge Acquisition and Deterministic Reuse"
 type: software
-version: 0.5.0
+version: 0.5.1
 date-released: '2026-10-16'
 license: MIT
 repository-code: "https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing"
-url: "https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing/releases/tag/v0.5.0"
+url: "https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing/releases/tag/v0.5.1"
 authors:
   - family-names: "Tarannum"
     given-names: "Adeeba"

@@ -1,6 +1,6 @@
 # Release maintenance
 
-The public repository is [hybrid-symbolic-llm-name-address-parsing](https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing). The study snapshot is tagged `v0.5.0`; its [release page](https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing/releases/tag/v0.5.0) hosts the larger LLM results archive, source distribution and archive checksums. The corpus archive is already tracked in `artifacts/`.
+The public repository is [hybrid-symbolic-llm-name-address-parsing](https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing). The [v0.5.1 release page](https://github.com/MohdMuzakkiruddinAhmed/hybrid-symbolic-llm-name-address-parsing/releases/tag/v0.5.1) hosts the larger LLM results archive, source distribution and archive checksums. This packaging patch corrects test setup while preserving the protocol v0.5.0 predictive implementation and scientific archives. The initial v0.5.0 tag remains available. The corpus archive is already tracked in `artifacts/`.
 
 For later releases:
 

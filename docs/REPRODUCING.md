@@ -2,9 +2,10 @@
 
 ## Environment and data
 
-Use Python 3.12 or 3.13. The executed environment was Python 3.13.5; exact packages are pinned in `requirements-research.txt` and recorded in `results/research_environment.json`. Install optional packages in an isolated environment. Core tests require no external packages or credentials.
+Use Python 3.12 or 3.13. The executed environment was Python 3.13.5; exact packages are pinned in `requirements-research.txt` and recorded in `results/research_environment.json`. Install packages in an isolated environment. The test suite requires `botocore` for mocked Bedrock adapter tests, but no credentials or provider calls.
 
 ```sh
+python -m pip install botocore==1.42.73
 python scripts/restore_artifacts.py --dataset-only
 python -m unittest discover -s tests -q
 python scripts/verify_release.py --dataset-only

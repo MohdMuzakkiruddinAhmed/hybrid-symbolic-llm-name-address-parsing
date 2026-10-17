@@ -1,5 +1,5 @@
 {
-  "release": "v0.5.0",
+  "release": "v0.5.1",
   "predictive_source_files": 19,
   "human_annotations": 0,
   "original_protocol_sha256": "9d383c14507ad2505a7329aa4ee3eb649ea804b2eb7ccf0371bbf01f5687ac2d",
@@ -11,8 +11,8 @@
     },
     {
       "path": ".github/workflows/tests.yml",
-      "sha256": "da891e27b20688e833a64282e5a11adb1d4a9c5cea8b95aac62f0ed75d282c54",
-      "bytes": 626
+      "sha256": "4f72668ed40b926ac51b620c9bdef5f0cdd47ab6bf67a31b49640d639b812e2b",
+      "bytes": 702
     },
     {
       "path": ".gitignore",
@@ -21,7 +21,7 @@
     },
     {
       "path": "CITATION.cff",
-      "sha256": "7a9de5ab15af3cd884c9c3d517dd79428167cd48ecb916ca35233518809297f3",
+      "sha256": "a2d0c88099d5e035d7bc3a69cede6bf8c6beb62ad19135492757baf00e905f02",
       "bytes": 1462
     },
     {
@@ -31,17 +31,17 @@
     },
     {
       "path": "README.md",
-      "sha256": "3a6ff55fa3d4a2642d358e46282c684bfe0a121b8b443bb965c0c6ab167b57d2",
-      "bytes": 5816
+      "sha256": "75ff811dcdc64674e8af257823da96b86c1b85da93b013baadc63e69d1981136",
+      "bytes": 6079
     },
     {
       "path": "RELEASE_NOTES.md",
-      "sha256": "0453c3b72a43876b88ccd3302a421282c001384b68a8b92a7872bf34bb81acb6",
-      "bytes": 2058
+      "sha256": "510192e6dc352a5d343ce8b5c629684aadf7486343986aca3f5775a80d4dce1a",
+      "bytes": 2408
     },
     {
       "path": "RELEASE_VALIDATION.json",
-      "sha256": "7910eac71a952c6ba624c45adea505e5bf3cd8ec385b5ce9e3249fdc0b1a2ba0",
+      "sha256": "6103590bd0b3cb09b7bc562b2b8c394cb7c4a7472303c68419faf2054c680b58",
       "bytes": 1001
     },
     {
@@ -96,13 +96,13 @@
     },
     {
       "path": "docs/PUBLISHING.md",
-      "sha256": "5679847b513522e0e47482eae0aa1e04c7b8b2a5037f13d69f0c606df1588a3b",
-      "bytes": 1544
+      "sha256": "112ee819f080c8238e1460a27a78d324700e4ec5164385f5be844759bc2b2201",
+      "bytes": 1683
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "09f46cb44c2df0ed9586fbb9885b08b7e2ef3e3bd477a448fbb60466cb19d884",
-      "bytes": 3672
+      "sha256": "47c045d3dc933227f9fdc65db9460fa948d657fa4a927e7640629cc8705eb9c4",
+      "bytes": 3754
     },
     {
       "path": "docs/dataset_coverage.md",

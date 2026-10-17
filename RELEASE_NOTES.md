@@ -1,10 +1,12 @@
-# Study release v0.5.0
+# Publication release v0.5.1
+
+Packaging patch: install the recorded `botocore==1.42.73` dependency before running mocked Bedrock adapter tests in clean environments. CI and quick-start instructions include this step. The frozen protocol v0.5.0 predictive implementation, corpus and LLM result archives remain unchanged. The original v0.5.0 tag and assets remain available.
 
 Reproducibility companion for **A Hybrid Symbolic–LLM Framework for Adaptive Name and Address Parsing through Token-Mask Knowledge Acquisition and Deterministic Reuse**, by Adeeba Tarannum, Muzakkiruddin Ahmed Mohammed, Shames Al Mandalawi, and John R. Talburt, ERIQ, University of Arkansas at Little Rock.
 
 Original project code and documentation are MIT licensed. AddressNC source components retain their own public-use terms and attribution; see `THIRD_PARTY_NOTICES.md`.
 
-Download `llm-results-v0.5.0.zip` into `artifacts/` and follow the README to restore and reproduce results without new model calls. `adaptive-parsing-research-v0.5.0.zip` is the checksummed source distribution and includes the corpus archive. `SHA256SUMS.txt` records the two distribution archive digests.
+Download `llm-results-v0.5.0.zip` into `artifacts/` and follow the README to restore and reproduce results without new model calls. `adaptive-parsing-research-v0.5.1.zip` is the checksummed source distribution and includes the corpus archive. `SHA256SUMS.txt` records the two distribution archive digests.
 
 - Exact frozen parser, validation, memory, replay and baseline implementation.
 - 20,000 distinct inputs and source provenance; 6,000/4,000/10,000 development/validation/final split.
